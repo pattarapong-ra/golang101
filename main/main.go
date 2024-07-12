@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Define a struct to represent a student's financial contribution
+// Define a struct to represent a member's money in the team
 type Team struct {
 	Name   string
 	Amount float64
@@ -55,7 +55,6 @@ func main() {
 	// Print the result
 	fmt.Println("Is the total amount enough?", enoughMoney)
 
-	// ใช้ตัวแปร 3 ตัวคิดเงินทอน ถ้าเงินไม่พอให้แสดงผลว่าไม่ได้เงินทอน
 	isEnough, change := buyCoffee(total, coffeePrice)
 	if !isEnough {
 		fmt.Println("Not enough money.")
@@ -65,7 +64,6 @@ func main() {
 	}
 }
 
-// ใช้ enoghMoney ในการเช็คว่ามีเงินพอไหม
 func buyCoffee(total float64, price float64) (bool, float64) {
 	var isEnough bool
 	var change float64
@@ -76,5 +74,3 @@ func buyCoffee(total float64, price float64) (bool, float64) {
 	}
 	return isEnough, change
 }
-
-//input output ให้แน่นอน
