@@ -13,12 +13,11 @@ type Team struct {
 func main() {
 	// Create an array of team name
 	team := []Team{
-		{"Ham", 5.75},
-		{"Golf", 3.50},
-		{"Parn", 4.50},
-		{"Muiewju", 4.25},
-		{"Petch", 100.00},
-		{"Pack", 5.50},
+		{"replace_your_name_1", 22},
+		{"replace_your_name_2", 54},
+		{"replace_your_name_3", 34},
+		{"replace_your_name_4", 46},
+		{"replace_your_name_5", 34},
 	}
 	// Define the goal amount to buy the item
 	var coffeePrice float64 = 15.00
