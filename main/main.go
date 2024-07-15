@@ -13,13 +13,13 @@ type Team struct {
 func main() {
 	// Create an array of team name
 	team := []Team{
-		{"Ham", 5.75},
-		{"Golf", 3.50},
-		{"Parn", 4.50},
-		{"Muiewju", 4.25},
-		{"Petch", 100.00},
-		{"Pack", 5.50},
+		{"replace_your_name_1", 40},
+		{"replace_your_name_2", 33},
+		{"replace_your_name_3", 79},
+		{"replace_your_name_4", 54},
+		{"replace_your_name_5", 19},
 	}
+
 	// Define the goal amount to buy the item
 	var coffeePrice float64 = 15.00
 	fmt.Println("Team Members:", team)
