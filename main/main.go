@@ -20,10 +20,15 @@ func main() {
 		{"replace_your_name_5", 19},
 	}
 
-	// Define the goal amount to buy the item
-	var coffeePrice float64 = 15.00
+	// Price of each size of coffee
+	var tallCoffee float64 = 189.00
+	var grandeCoffee float64 = 225.00
+	var ventiCoffee float64 = 340.00
+
 	fmt.Println("Team Members:", team)
-	fmt.Println("Coffee Price: ", coffeePrice)
+	fmt.Println("Tall Coffee Price: ", tallCoffee)
+	fmt.Println("Grande Coffee Price: ", grandeCoffee)
+	fmt.Println("Venti Coffee Price: ", ventiCoffee)
 	// code here
 }
 
